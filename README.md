@@ -1,26 +1,43 @@
-# 🕵️ L4SH-OSINT
-**Advanced Open-Source Intelligence (OSINT) tool to track usernames across social media platforms.**
+# 🕵️ L4SH-OSINT Framework
 
-[![Developer](https://img.shields.io/badge/Developer-l4shbin-green.svg)](https://github.com/l4shbin)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-L4SH-OSINT is a lightweight, modular terminal-based tool developed for Termux to find registered accounts on various websites using only a username.
-
----
-
-## 🚀 Features
-* **Multi-platform Tracking**: Check GitHub, Instagram, TikTok, Roblox, and more.
-* **Modular Engine**: Clean separation between tracking logic and target data.
-* **JSON Based**: Easily add new websites by editing `src/targets.json`.
-* **Fast Execution**: Optimized request handling with custom User-Agents.
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Termux-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Developer-l4shbin-red?style=for-the-badge">
+</p>
 
 ---
 
-## 📂 Installation
+### 📝 Table of Contents
+- [About The Project](#-about-the-project)
+- [Key Features](#-key-features)
+- [Installation](#-installation)
+- [How To Use](#-how-to-use)
+- [Directory Structure](#-directory-structure)
+- [Disclaimer](#-disclaimer)
 
-Run these commands in your **Termux**:
+---
 
-1. **Clone the project**
-   ```bash
-   git clone [https://github.com/l4shbin/L4SH-OSINT](https://github.com/l4shbin/L4SH-OSINT)
-   cd L4SH-OSINT
+## 📖 About The Project
+**L4SH-OSINT** is a powerful terminal-based Open Source Intelligence (OSINT) tool built specifically for Termux. It allows you to track and find social media accounts across multiple platforms using only a single username.
+
+## ✨ Key Features
+* **Deep Scan**: Scans over 50+ popular websites including Instagram, GitHub, and TikTok.
+* **Modular Engine**: Logic is separated from the target list for easy updates.
+* **Fast & Light**: Optimized for mobile devices and low-resource environments.
+* **Automatic Logging**: Results are clearly displayed with status indicators.
+
+## ⚙️ Installation
+
+Open your **Termux** and run these commands:
+
+```bash
+# Clone the repository
+git clone [https://github.com/l4shbin/L4SH-OSINT](https://github.com/l4shbin/L4SH-OSINT)
+
+# Enter the directory
+cd L4SH-OSINT
+
+# Run the setup script
+bash setup.sh
