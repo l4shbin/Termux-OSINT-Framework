@@ -1,7 +1,8 @@
 #!/bin/bash
-pkg update && pkg upgrade -y
-pkg install python -y
-pip install requests
-echo "alias l4sh-osint='python $(pwd)/src/main.py'" >> ~/.bashrc
-echo -e "\033[1;32mSetup Done! Please restart Termux or type 'source ~/.bashrc'\033[0m"
-echo -e "\033[1;32mThen type 'l4sh-osint' to start.\033[0m"
+echo -e "\e[1;32m[🔥] Installing L4SH-OSINT Pro v2.0...\e[0m"
+pkg update -y
+pkg install python git -y
+pip install -r requirements.txt
+chmod +x main.py
+echo -e "\e[1;32m[✅] Installation complete!\e[0m"
+echo -e "\e[1;34mUsage:\e[0m python main.py l4shbin"
